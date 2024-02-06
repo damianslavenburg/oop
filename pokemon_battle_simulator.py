@@ -3,16 +3,13 @@ from charmanderclass import Charmander
 
 def main():
     charmander = Charmander(
-        nickname="Charmander",
-        fire=10,
-        water=20,
+        nickname= "Charmander",
     )
     game_running = True
 
     while game_running:
         print("1. Start the game")
         print("2. Quit the game")
-
         choice = input("Enter your choice: ")
 
         if choice == "1":
