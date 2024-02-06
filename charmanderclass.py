@@ -1,6 +1,7 @@
-import pokemon_battle_simulator
+from pokemon_battle_simulator import *
 class Charmander:
-    def __init__(self, nickname, fire, water):
+    def __init__(self, nickname, fire, water , name):
+        nickname = name
         self.nickname = nickname
         self.fire = fire
         self.water = water
