@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 
 from charmanderclass import Charmander
+=======
+from models import Charmander
+>>>>>>> Stashed changes
 
 def main():
     charmander = Charmander()
