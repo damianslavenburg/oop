@@ -1,6 +1,5 @@
 from charmanderclass import Charmander
 
-
 def main():
     charmander = Charmander(
         nickname= "Charmander",
@@ -8,18 +7,28 @@ def main():
     game_running = True
 
     while game_running:
+
+    # <----------- The player start the game ----------->
+        
         print("1. Start the game")
         print("2. Quit the game")
         choice = input("Enter your choice: ")
 
         if choice == "1":
             print("Game started!")
+
+    # <--------- The player gives a name to a charmander ---------> 
+            
             name = str(input("Give a name to your Charmander: "))
             charmander.nickname = name
 
+    # <------ The charmander does its battle cry for ten times ------>
+            
             for i in range (10):
                 charmander.battle_cry()
 
+    # <------ The player can choose to quit the game or continue ------>
+                
         elif choice == "2":
             print("Game over!")
             quit()
