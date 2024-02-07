@@ -8,7 +8,7 @@ def main():
 
     while game_running:
 
-    # <----------- The player start the game ----------->
+    # <----------- The player start the game ----------->      
         
         print("1. Start the game")
         print("2. Quit the game")
