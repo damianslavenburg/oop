@@ -1,4 +1,4 @@
-from charmanderclass import Charmander
+from models import Charmander
 
 
 def main():
