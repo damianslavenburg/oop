@@ -27,6 +27,9 @@ def main():
             
             for i in range (10):
                 charmander.battle_cry()
+
+    # <------- The player can give a new name to the same charmander -------->
+                        
             changename = int(input('would you like to change the name of your charmander?, 1. Yes 2. No  '))
             if changename == 1:
                 str(input('what is the name you would like tho give: '))
