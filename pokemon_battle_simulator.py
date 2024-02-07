@@ -10,7 +10,7 @@ def main():
     )
     
     Trainers = {
-a
+
     }
 
     game_running = True
