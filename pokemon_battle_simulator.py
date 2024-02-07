@@ -1,9 +1,18 @@
-from models import Charmander
+from models import *
 
 def main():
     charmander = Charmander(
         nickname= "Charmander",
     )
+    trainer = Trainer(
+        name = "name", 
+        belt = []
+    )
+    
+    Trainers = {
+
+    }
+
     game_running = True
 
     while game_running:
@@ -17,6 +26,17 @@ def main():
 
         if choice == "1":
             print("Game started!")
+
+    # <---------- The player gives a name to the first Trainer ---------->
+
+            Trainer1 = trainer.name = input("Please choose a name for the first tainer\n" )
+            
+
+    # <---------- The player gives a name to the second Trainer ---------->
+
+
+            Trainer2 = trainer.name = input("Please choose a name for the second tainer\n" )
+
 
     # <--------- The player gives a name to a charmander ---------> 
             

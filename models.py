@@ -29,3 +29,18 @@ class Pokeball:
             self.charmander = charmander
         else:
             print("Pokeball is already closed!")
+
+class Trainer:
+    def __init__(self, name, belt):
+        self.name = name
+        self.belt = belt
+
+class Throw:
+    def __init__(self, belt):
+        for pokeball in belt:
+            belt.remove[0]
+            return (pokeball)
+
+class Return:
+    def __init__(self, belt, pokeball):
+        belt.append(pokeball)
