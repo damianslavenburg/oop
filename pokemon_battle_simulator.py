@@ -10,6 +10,7 @@ def main():
     while game_running:
         print("1. Start the game")
         print("2. Quit the game")
+
         choice = input("Enter your choice: ")
 
         if choice == "1":
@@ -19,6 +20,11 @@ def main():
 
             for i in range (10):
                 charmander.battle_cry()
+            changename = int(input('would you like to change the name of your charmander?, 1. Yes 2. No  '))
+            if changename == 1:
+                str(input('what is the name you would like tho give: '))
+            elif changename == 2:
+                game_running = True
 
         elif choice == "2":
             print("Game over!")
